@@ -1,5 +1,5 @@
 # LLM-Summarizer
-With some help from GPT-4 I created this helpful assistant that can turn useful when you need to get a quick excerpt from a webpage.
+With some help from GPT-4 I created this helpful assistant that can be useful when you need to get a quick excerpt from a webpage.
 The Chrome extension will return a summary of the current Chrome tab by leveraging the llama3 Large Language Model (8 billion parameters), installed locally using Ollama.
 
 To run the extension you will need:
