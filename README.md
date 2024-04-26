@@ -14,7 +14,7 @@ b) ollama > install, following instructions at https://ollama.com/ - once instal
 
 > ollama pull llama3:8b 
 
-c) download the extension files to a folder and install it in Chrome as an unpacked extension.
+c) download the extension files to a folder and install it in Chrome as an unpacked extension (you will need to enable the Developer Mode before, turning the top-right switch on).
 
 Usage is very simple.
 
