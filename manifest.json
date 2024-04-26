@@ -1,0 +1,24 @@
+{
+    "name": "LLM Summarizer",
+    "version": "1.0",
+    "manifest_version": 3,
+    "host_permissions": [
+    "http://127.0.0.1:2222/*"
+    ],
+    "permissions": [
+        "identity",
+        "tabs",
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
