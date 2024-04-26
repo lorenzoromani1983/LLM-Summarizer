@@ -18,7 +18,8 @@ c) download the extension files to a folder and install it in Chrome as an unpac
 
 Usage is very simple.
 
-a) run the server.py file that needs to keep running all the time
+a) run the server.py file that needs to keep running all the time.
+
 b) get a summary of any web page by clicking the extension and then "Get Summary"
 
 There are other similar tools doing the same thing. However, I choose a slightly different solution that requires a server running in the background.
