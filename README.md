@@ -5,7 +5,7 @@ The Chrome extension will return a summary of the current Chrome tab by leveragi
 To run the extension you will need:
 
 a) Python3 with the following libraries installed:
-- newspaper4k > pip install newspaper4k
+- newspaper4k > pip install newspaper4k (alternatively, you can use the trafilatura library, that is sometimes better than newspaper: pip install trafilatura)
 - ollama > pip install ollama
 - Flask > pip install flask
 - flask_cors > pip install flask_cors
