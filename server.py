@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 from newspaper import Article
+#from trafilatura import html2txt uncomment this line and comment line 2 if you want to use the trafilatura library
 import ollama
 from flask_cors import CORS
 
@@ -17,6 +18,9 @@ def process_url():
     article.download(input_html=html)
     article.parse()
     text = article.text
+
+    #text = html2txt(html) uncomment this line and comment lines 17-20 if you want to use the trafilatura library
+    
     print("------------------------\nElaborating on:", text.strip())
 
     response = ollama.chat(model='llama3:8b', messages=[{
